@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" type="image/x-icon" href="images/gay.jpg">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .balls{
+            background-color: blueviolet;
+            margin: 20px;
+            padding: 20px;
+            font-family: cursive;
+            color: azure;
+        }
+        .note{
+            color:beige;
+            font-family: cursive;
+            font-weight: 300;
+        }
+    </style>
+</head>
+<body>
+    <h1>project 1</h1>
+    <div class="balls">
+    <p>The<span class="note"> class attribute is often used to point to a class</span> name in a style sheet. It can also be used by a JavaScript to access
+        and manipulate elements with the specific class name.In the following example we have three div elements with a class 
+        attribute with the value of "city". All of the three div elements will be styled equally according to the .city style 
+        definition in the head section:</p>
+    </div>
+
+    <h2 class="city">BALLS</h2>
+    <p>manipulate elements with the specific class name.</p>
+
+    <button oneclick="myFunction()">hide elements</button>
+
+    <h2 class="city">mad</h2>
+    <p>manipulate elements with the specific class name.</p>
+
+    <h2 class="city">big</h2>
+    <p>manipulate elements with the specific class name.</p>
+
+    <script>
+        function myFunction() {
+          var x = document.getElementsByClassName("city");
+          for (var i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+          }
+        }
+        </script>
+
+
+<img id="myImage" src="images/gay.jpg" width="700px">
+<br>
+<button type="button" onclick='document.getElementById("myImage").src="images/gay.jpg"'>Click Me!</button>
+ 
+<button type="button" onclick='document.getElementById("myImage").src="images/fuck.png"'>Don't Click Me!</button>
+
+
+<p id="mynigga"> with the value of "city". All of the three div elem</p>
+
+<iframe src="project2.html" height="500" width="1000"></iframe>
+<iframe src="https://www.youtube.com/watch?v=xnqwNPkrCvs" height="500" width="1000"></iframe>
+
+<script>
+    function myFunction() {
+      document.getElementById("demo").style.fontSize = "25px"; 
+      document.getElementById("demo").style.color = "red";
+      document.getElementById("demo").style.backgroundColor = "yellow";        
+    }
+    </script>
+    
+    <button type="button" onclick="myFunction()">Click Me!</button>
+
+<table>
+    <tr>
+        <th>AGE</th>
+        <th>NAME</th>
+        <th>CLASS</th>
+    </tr>
+    <tr>
+        <td>EXPLORER</td>
+        <td>16</td>
+        <td>YEAR 11</td>
+    </tr>
+    <tr>
+        <td>EXPLORER</td>
+        <td>16</td>
+        <td>YEAR 11</td>
+    </tr>
+
+</table>
+
+    
+</body>
+</html>

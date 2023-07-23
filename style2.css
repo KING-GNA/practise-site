@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+table, th, td{
+    color: rgb(31, 67, 226);
+    border: 1px solid;
+    margin: 1px solid;
+    width: 50px;
+    text-align: center;
+}
+
+div{
+    width: 500px;
+    height: 500px;
+}
+
